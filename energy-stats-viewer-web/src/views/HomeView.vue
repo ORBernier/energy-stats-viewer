@@ -1,5 +1,7 @@
 <script setup lang="ts"></script>
 
 <template>
-  <h1>HOME</h1>
+  <h1>DASHBOARD</h1>
 </template>
+
+<style scoped></style>
