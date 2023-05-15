@@ -1,9 +1,21 @@
 <script setup lang="ts">
 import { RouterView } from 'vue-router';
+import NavBar from './components/NavBar.vue';
 </script>
 
 <template>
-  <RouterView />
+  <header>
+    <NavBar />
+  </header>
+  <body>
+    <RouterView />
+  </body>
 </template>
 
-<style scoped></style>
+<style scoped>
+body {
+  margin-left: 56px;
+  padding-left: 1rem;
+  background-color: whitesmoke;
+}
+</style>
