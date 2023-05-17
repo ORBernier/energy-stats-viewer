@@ -13,10 +13,12 @@
     "format": "prettier --write src/"
   },
   "dependencies": {
+    "axios": "^1.4.0",
     "chart.js": "^4.3.0",
     "pinia": "^2.0.35",
     "vite-plugin-vuetify": "^1.0.2",
     "vue": "^3.2.47",
+    "vue-chartjs": "^5.2.0",
     "vue-router": "^4.1.6",
     "vuetify": "^3.2.4"
   },

@@ -1,13 +1,11 @@
 <script setup lang="ts">
-import DemandTable from '../components/demand/DemandTable.vue';
-import DemandLineChart from '@/components/demand/DemandLineChart.vue';
+import ProductionCard from '@/components/production/ProductionCard.vue';
 </script>
 
 <template>
   <div class="container">
-    <h1>Total Energy Demand in Quebec Province</h1>
-    <DemandLineChart />
-    <DemandTable />
+    <h1>Energy Production in Quebec Province by Type for each Date Time</h1>
+    <ProductionCard />
   </div>
 </template>
 
