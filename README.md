@@ -1,6 +1,6 @@
 # energy-stats-viewer
 
-Energy Stats Viewer is a full stack Web App that displays data regarding energy production and demand fetched from the Hydro Quebec API into various charts and tables.
+Energy Stats Viewer is a full stack Web App that displays data regarding energy production and demand fetched from the Hydro Quebec public API into various charts and tables.
 
 ## Requirements
 
