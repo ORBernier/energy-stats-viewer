@@ -1,13 +1,14 @@
-import { Controller, Get } from '@nestjs/common';
-import { Demand } from 'src/interfaces/demand';
+import { Controller, Get, Res } from '@nestjs/common';
 import { DemandService } from './demand.service';
+import { Response } from 'express';
 
 @Controller('demand')
 export class DemandController {
   constructor(private readonly demandService: DemandService) {}
 
   @Get('/data')
-  async getData(): Promise<Demand[]> {
-    return await this.demandService.getDemandData();
+  async getData(@Res() res: Response) {
+    const data = await this.demandService.getDemandData();
+    res.set({ 'Access-Control-Allow-Origin': ['*'] }).send(data);
   }
 }
