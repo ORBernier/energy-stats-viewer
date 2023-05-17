@@ -92,15 +92,15 @@ For a reusable UI components library we use [Vuetify](https://vuetifyjs.com/en/)
 
 #### Chart.js
 
-To build charts in our appplication we use [Chart.js](https://www.chartjs.org/) to provide us with a base chart that we can configure and fill ourselves.
+To build charts in our appplication we use [Chart.js](https://www.chartjs.org/) to provide us with a base chart UI element that we can configure and fill with data ourselves. Chart.js is easy to use out of the box but provides in-depth customization options for those who wish to just fine tune it.
 
 #### vue-chartjs
 
-As chart.js was intended for JavaScript applications, [vue-chartjs](https://vue-chartjs.org/) provides us with some accessible Vue components for each chart from chart.js.
+As chart.js was intended for JavaScript applications, and not Vue.js, there's a package that's called [vue-chartjs](https://vue-chartjs.org/) and that provides us with some accessible Vue components for each chart from chart.js.
 
 #### Pinia
 
-When it comes to state management, the recommended approach by the Vue team for Vue 3 is using [Pinia](https://pinia.vuejs.org/). Pinia is in fact developped and maintained by members of the Vue dev team and is included in the Vue CLI as an option de facto.
+When it comes to state management, the recommended approach by the Vue team for Vue 3 is using [Pinia](https://pinia.vuejs.org/). Pinia is in fact developped and maintained by members of the Vue dev team and is included in the Vue CLI as an option de facto. Using a central store as with Pinia helps reduce coupling between components in our code so it is less prone to errors and more easily maintained.
 
 #### Axios
 
